@@ -1,7 +1,6 @@
 .header{
     color: #32b9cd;
     border-bottom: 3px solid #32b9cd;
-    /* border: 3px solid yellow; */
 }
 
 body{
@@ -13,7 +12,6 @@ body{
 .container{
     width: 80%;
     margin: auto;
-    /* border: 3px solid red; */
 }
 
 .header .container{
@@ -29,7 +27,6 @@ body{
     width: 600px;
     align-items: center;
     color: #E3b062;
-    /* border: 3px solid blue; */
 }
 
 .agora{
@@ -37,13 +34,13 @@ body{
 }
 
 .banner{
-    height: 500px;
-    background-image: url(imgs/bg-jelly-fish-para-home.png);
+    height: 100%;
+    background-image: url(imgs/bg-jelly-fish-para_outras_pags.png);
     background-size: cover;
 }
 
 .banner .container{
-    height: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;   
@@ -67,6 +64,11 @@ li a{
     color: #E3b062;
 }
 
+h1 a{
+    text-decoration: none;
+    color: #32b9cd;
+}
+
 .form-box{
     display: flex;
     flex-direction: column;
@@ -78,18 +80,35 @@ input{
     border-radius: 10px;
 }
 
-.btn1{
-   
+.group-button{
+    display: flex;
+    height: 45px;
+}
+
+.btn1{ 
     font-family: monospace;
     align-self: center;
     width: 120px;
     border: 0;
     padding: 0;
-    border-radius: 4px;
+    border-radius: 10px;    
     font-size: 18px;
     font-weight: bolder;
     background-color: #e6005a;
     color: white;
+}
+
+.btn2{ 
+    font-family: monospace;
+    align-self: center;
+    width: 120px;
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: white;
+    color: #e6005a;
 }
 
 .banner .card{
@@ -99,10 +118,32 @@ input{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     color: #e6005a;
 }
 
-/* .container2{
+.valores{
+    height: 250px;
     background-color: white;
+}
+
+.valores .container{
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card img{
+    width: 150px;
+}
+
+.footer{
     height: 150px;
-} */
+    background-color: black;
+}
