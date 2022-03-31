@@ -1,234 +1,242 @@
-.header{
-    color: #32b9cd;
-    border-bottom: 3px solid #32b9cd;
+.header {
+  color: #32b9cd;
+  border-bottom: 3px solid #32b9cd;
 }
 
-body{
-    margin: 0;
-    background-color: black;
-    font-family: monospace;
+body {
+  margin: 0;
+  background-color: black;
+  font-family: monospace;
 }
 
-.container{
-    width: 80%;
-    margin: auto;
+.container {
+  width: 80%;
+  margin: auto;
 }
 
-.header .container{
-    display: flex;
-    justify-content: space-between;
+.header .container {
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    padding: 0;
-    width: 600px;
-    align-items: center;
-    color: #E3b062;
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+  padding: 0;
+  width: 600px;
+  align-items: center;
+  color: #e3b062;
 }
 
-.agora{
-    font-weight: 1000;
+.agora {
+  font-weight: 1000;
 }
 
-.banner{
-    height: 100%;
-    background-image: url(imgs/bg-jelly-fish-para_outras_pags.png);
-    background-size: cover;
+.banner {
+  height: 100%;
+  background-image: url("imgs/bg-jelly-fish-para_outras_pags.png");
+  background-size: cover;
 }
 
-.banner .container{
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;   
-    color: white;
+.banner .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 
-.banner .container p{
-    width: 280px;
-    margin: 0;
-    padding: 0;
-    font-size: 36px;
+.banner .container p {
+  width: 280px;
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
 }
 
-.banner .card{
-    background-color: #e5e5e5;
-    height: 400px;
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: #e6005a;
+.banner .card {
+  background-color: #e5e5e5;
+  height: 450px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #e6005a;
 }
 
-.banner span{
-    font-weight: bold;
-    letter-spacing: 5px;
+.banner span {
+  font-weight: bold;
+  letter-spacing: 5px;
 }
 
-li a{
-    text-decoration: none;
-    color: #E3b062;
+li a {
+  text-decoration: none;
+  color: #e3b062;
 }
 
-h1 a{
-    text-decoration: none;
-    color: #32b9cd;
+h1 a {
+  text-decoration: none;
+  color: #32b9cd;
 }
 
-.form-box{
-    display: flex;
-    flex-direction: column;
-    width: 60%;
+.form-box {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
 }
 
-.form-box h4{
-    align-self: flex-start;
+.form-box h4 {
+  align-self: flex-start;
 }
 
-input{
-    height: 30px;
-    border:2px solid #32b9cd;
-    border-radius: 10px;
+input {
+  height: 30px;
+  border: 2px solid #32b9cd;
+  border-radius: 10px;
 }
 
-.group-button{
-    display: flex;
-    height: 60px;
+.group-button {
+  display: flex;
+  height: 60px;
 }
 
-.btn1{ 
-    font-family: monospace;
-    align-self: center;
-    width: 80%;
-    height: 35px;
-    border: 0;
-    padding: 0;
-    border-radius: 10px;    
-    font-size: 18px;
-    font-weight: bolder;
-    background-color: #e6005a;
-    color: white;
+.btn1 {
+  font-family: monospace;
+  align-self: center;
+  width: 80%;
+  height: 35px;
+  border: 0;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: #e6005a;
+  color: white;
 }
 
-.btn2{ 
-    font-family: monospace;
-    align-self: center;
-    width: 80%;
-    height: 35px;
-    border: 3px solid #e6005a;
-    padding: 0;
-    border-radius: 10px;
-    font-size: 18px;
-    font-weight: bolder;
-    background-color: white;
-    color: #e6005a;
-    margin-left: 15px;
+.btn2 {
+  font-family: monospace;
+  align-self: center;
+  width: 80%;
+  height: 35px;
+  border: 3px solid #e6005a;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bolder;
+  background-color: white;
+  color: #e6005a;
+  margin-left: 15px;
 }
 
-.valores{
-    height: 300px;
-    background-color: rgb(233, 233, 233);
+.btn1 a{
+  text-decoration: none;
+  color: white;
 }
 
-.valores .container{
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.btn2 a{
+  text-decoration: none;
+  color: #e6005a;
 }
 
-
-
-.card{
-    width: 20%;
-    text-align: center;
+.valores {
+  height: 300px;
+  background-color: rgb(233, 233, 233);
 }
 
-.card img{
-    width: 60%;
+.valores .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.card h3{
-    color: #e6005a;
-    font-weight: bold;
+.card {
+  width: 20%;
+  text-align: center;
 }
 
-.equipe{
-    height: 500px;
-    background-color: black;
+.card img {
+  width: 60%;
 }
 
-.equipe .container{
-    display: flex;
-    flex-direction: column;
+.card h3 {
+  color: #e6005a;
+  font-weight: bold;
 }
 
-.equipe .container h1{
-    margin-bottom: 30px;
-    text-align: center;
-    font-weight: bold;
-    color: #32b9cd;
+.equipe {
+  height: 530px;
+  background-color: black;
 }
 
-.equipe1{
-    display: flex;
-    justify-content: space-evenly;
+.equipe .container {
+  display: flex;
+  flex-direction: column;
 }
 
-.equipe1 .card{
-    color: #E3b062;
+.equipe .container h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: bold;
+  color: #32b9cd;
 }
 
-.equipe1 .card img{
-    background-color: gray;
-    border-radius: 50%;
+.equipe1 {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.equipe2{
-    display: flex;
-    justify-content: space-evenly;
+.equipe1 .card {
+  color: #e3b062;
 }
 
-.equipe2 .card img{
-    background-color: gray;
-    border-radius: 50%;
+.equipe1 .card img {
+  background-color: gray;
+  border-radius: 50%;
 }
 
-.equipe2 .card{
-    color: #E3b062;
+.equipe2 {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.equipe button{
-    align-self: center;
-    width: 18%;
-    height: 30px;
-    margin-top: 20px;
-    background-color: #e6005a;
-    color: white;
-    border: 0;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: bolder;
+.equipe2 .card img {
+  background-color: gray;
+  border-radius: 50%;
 }
 
-.footer{
-    height: 150px;
-    background-color: #32b9cd;
+.equipe2 .card {
+  color: #e3b062;
 }
 
-.footer .container{
-    height: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.equipe button {
+  align-self: center;
+  width: 18%;
+  height: 30px;
+  margin-top: 20px;
+  background-color: #e6005a;
+  color: white;
+  border: 0;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
-.footer p{
-    color: white;
-    font-size: 16px;
+.footer {
+  height: 150px;
+  background-color: #32b9cd;
+}
+
+.footer .container {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  color: white;
+  font-size: 16px;
 }
